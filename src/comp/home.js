@@ -59,8 +59,8 @@ const productcategory=()=>
     <div className='top_banner'>
 <div className='contant'>
     <h3>silver aluminum</h3>
-    <h2>Smart Watch</h2>
-    <p> 30% off at your first order</p>
+    <h2>Smart Watches</h2>
+    <p> 30% Off at Your First Order</p>
     <Link to ='/shop' className='link'> Shop Now</Link>
       </div>   
     </div>
@@ -69,7 +69,7 @@ const productcategory=()=>
             <div className='left_box'>
                 <div className='header'>
                     <div className='heading'>
-                        <h2 onClick={() => allTrendingProduct () }>trending product</h2>
+                        <h2 onClick={() => allTrendingProduct () }>Trending product</h2>
                     </div>
                     <div className='cate'>
                         <h3 onClick ={() => filtercate ('new') }>New</h3>
@@ -156,27 +156,7 @@ const productcategory=()=>
             </div>
         </div>
     </div>
-    <div className='banners'>
-        <div className='container'>
-            <div className='left_box'>
-                <div className='box'>
-                    <img src='image/Multi-Banner-1.avif' alt='banner'></img>
-                </div>
-                <div className='box'>
-                    <img src='image/Multi-Banner-2.avif' alt='banner'></img>
-                </div>
-            </div>
-            <div className="right_box">
-                <div className='top'>
-                <img src='image/Multi-Banner-3.webp' alt=''></img>
-                <img src='image/Multi-Banner-4.avif' alt=''></img>
-                </div>
-                <div className='bottom'>
-                    <img src='image/Multi-Banner-5.webp'alt=''></img>
-                </div>
-            </div>
-        </div>
-    </div>
+   
     <div className='product_type'>
         <div className='container'>
             < div className='box'>

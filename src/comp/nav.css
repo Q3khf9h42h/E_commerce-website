@@ -20,14 +20,16 @@
 .header .top_header .icon
 {
  margin-left:20px;
- color:#ababab;
- font-size:19px;   
+ color:#cd1e76;
+ font-size:30px;   
 }
 .header .top_header .info p
 {
-  margin-left:10px;
-  color:#8a8a8a;  
-}
+  margin:auto;
+  color:#232323;
+  font-size:30px;
+  text-align: center;
+  }
 .header .mid_header
 {
     display:flex;
@@ -75,16 +77,18 @@ color:#e72b89;
 .header .mid_header .user
 {
   display:flex;
-  margin-right:30px;
+  margin-right:50px;
     
 }
 .header .mid_header .user .icon{
     margin-right:10px;
+    color:#232323;
 }
-.header .mid_header .user .icon .btn button{
+.header .mid_header .user .icon .btn button
+{
     border:none;
    outline:none;
-   font-size:16px;
+   font-size:14px;
    background:none;
    cursor:pointer;
    

@@ -12,17 +12,18 @@ const Nav = ({search,setSearch,searchproduct}) => {
   return (
     <>
     <div className='header'>
-        <div className='top_header'>
-            <div className='icon'>
-         <MdLocalShipping/>
-            </div>
+       
+        
             <div className='info'>
-                <p> Free Shipping when Shopping upto $1000</p>
-            </div>
+             
+           
             </div>
             < div className='mid_header'>
                 <div className='logo'>
-                    <img src='image/logo.webp' alt='logo'></img>
+                <div className='icon'>
+         
+            </div>
+                   <h1>THE GENERICS</h1>
                 </div>
                 <div className='search_box'>
                     <input type='text' value={search} placeholder='search' onChange={(e) =>setSearch(e.target.value)} ></input>
@@ -33,7 +34,7 @@ const Nav = ({search,setSearch,searchproduct}) => {
                     // if user is login when Logout Button will show
                     <div className='user'>
                         <div className='icon'>
-                       <CiLogout/>
+                              <CiLogout/>
                         </div>
                         <div className='btn'>
                         <button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>Logout</button>
@@ -89,7 +90,7 @@ const Nav = ({search,setSearch,searchproduct}) => {
                         </ul>
                     </div>
                 <div className='offer'>
-                    <p>flat 10% over all iphone</p>
+                    <p>flat 10% over all phone</p>
                 </div>
                  </div>
             </div>

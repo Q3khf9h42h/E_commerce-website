@@ -52,7 +52,7 @@ const Footer = () => {
         </div>
         <div className='right_box'>
           <div className='header'>
-            <img src='image/logo.webp' alt=''></img>
+           <h2>THE GENERICS</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae</p>
             </div> 
             <div className='bottom'>
